@@ -1,0 +1,17 @@
+{
+  "name": "nitin-portfolio",
+  "version": "1.0.0",
+  "description": "Nitin Dubey - Software Engineer Portfolio",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "npx htmlhint index.html"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "htmlhint": "^1.1.4"
+  }
+}
